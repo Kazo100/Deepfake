@@ -2,7 +2,7 @@ import cv2 as cv
 import os
 
 videoPath = './assets/videos/'
-videoName = 'VideoSource'
+videoName = 'VideoDestination'
 videoFormat = '.mp4'
 video = cv.VideoCapture(videoPath + videoName + videoFormat)
 frameCounter = 0
